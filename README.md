@@ -10,3 +10,13 @@ Credits:
 
 - Idea - [writ](https://cmcenroe.me/writ/)
 - Markdown [example](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html)
+
+
+TODO:
+
+- `aside` in the style of tufte-handouts
+- `footnote`
+- `pre`
+- table of contents
+- a better "example" document that can showcase all the HTML/Pandoc elements
+

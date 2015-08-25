@@ -18,6 +18,9 @@ h5,
 h6 {
   font-family: 'Tahoma', 'Geneva', sans-serif;
 }
+h1 {
+  margin-top: 2em;
+}
 code,
 pre {
   font-family: 'Consolas', 'Courier New', 'Lucida Console', 'Monaco', 'Andale Mono', monospace;
@@ -31,4 +34,35 @@ header h2 {
 }
 header h3 {
   font-size: 0.9em;
+}
+blockquote {
+  margin-left: 0.5em;
+  border-left: solid 1px #999;
+  padding-left: 0.5em;
+}
+table {
+  margin: 1em 0 2em 0;
+  width: 100%;
+}
+table caption {
+  font-style: italic;
+  text-align: center;
+}
+table th,
+table tr {
+  padding: 0.2em 0;
+}
+table th {
+  border-bottom: solid 3px #000;
+}
+table td {
+  border-bottom: solid 1px #000;
+}
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+figure figcaption {
+  font-style: italic;
+  margin-top: 0.3em;
 }
