@@ -17,19 +17,18 @@ Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
 
 > Block quotes are
-> written like so.
+> written *like so*.
 >
 > They can span multiple paragraphs,
-> if you like.
+> if you like. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
 in chapters 12--14"). Three dots ... will be converted to an ellipsis.
 Unicode is supported. ☺
 
 
-
-An h1 header
-============
+# An H1 header
 
 Here's a numbered list:
 
@@ -66,7 +65,7 @@ for i in range(10):
 
 
 
-### An h3 header ###
+## H2 header
 
 Now a nested list:
 
@@ -93,6 +92,10 @@ Now a nested list:
 
 Notice again how text always lines up on 4-space indents (including
 that last line which continues item 3 above).
+
+### H3 Header
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Here's a link to [a website](http://foo.bar), to a [local
 doc](local-doc.html), and to a [section heading in the current
@@ -149,7 +152,7 @@ Here's a "line block":
 
 and images can be specified like so:
 
-![example image](example-image.jpg "An exemplary image")
+![A cricket batsman](http://lorempixel.com/400/200/sports/1/ "A cricket batsman")
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:

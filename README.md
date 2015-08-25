@@ -14,11 +14,7 @@ Credits:
 
 TODO:
 
-
-- `table` styling that is pleasant for most common uses
 - `aside` in the style of tufte-handouts
-- `figure` example
-- `blockquote`
 - `footnote`
 - `pre`
 - table of contents
