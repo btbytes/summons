@@ -73,6 +73,12 @@ figure figcaption {
 body {
   font-family: Lusitana, serif;
 }
+header h2 {
+  font-size: 1.2.em;
+}
+header h3 {
+  font-size: 1.0em;
+}
 h1,
 h2,
 h3 {
