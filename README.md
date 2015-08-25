@@ -22,3 +22,5 @@ TODO:
 - `footnote`
 - `pre`
 - table of contents
+- a better "example" document that can showcase all the HTML/Pandoc elements
+
