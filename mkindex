@@ -1,2 +1,22 @@
+PANDOC=pandoc $< -o $@ -t html5 --standalone --smart
+
+all: example-summons.html example-normalize.html example-plain.html example-wf.html
+
+example-summons.html: example.md
+	$(PANDOC) --css summons.css
+
+example-normalize.html: example.md
+	$(PANDOC) --css normalize.css
+
+example-plain.html: example.md
+	$(PANDOC)
+
+example-wf.html: example.md
+	$(PANDOC) --css summons-wf.css
+
 index.html: index.md
 	pandoc $< -o $@ --standalone --smart -t html5 --css=summons.css
+
+.PHONY:
+clean:
+	rm -f *.html
