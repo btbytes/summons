@@ -1,0 +1,2 @@
+index.html: index.md
+	pandoc $< -o $@ --standalone --smart -t html5 --css=summons.css
